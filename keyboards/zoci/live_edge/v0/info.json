@@ -1,0 +1,34 @@
+{
+    "keyboard_name": "LiveEdge",
+    "maintainer": "Zoci",
+    "manufacturer": "Zocid",
+    "diode_direction": "COL2ROW",
+    "processor": "STM32F401",
+    "bootloader": "stm32-dfu",
+    "usb": {
+        "vid": "0xA110",
+        "pid": "0x8775",
+        "device_version": "1.0.0",
+        "polling_interval": 1
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "cols": ["A11"],
+        "rows": ["A14"]
+    },
+    "url": "",
+    "layouts": {
+        "LAYOUT_tkl_ansi": {
+            "layout": [
+                {"matrix": [0,0], "label":"Esc", "x":0, "y":0}
+            ]
+        }
+    }
+}
