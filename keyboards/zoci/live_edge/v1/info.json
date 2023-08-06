@@ -9,7 +9,7 @@
     "manufacturer": "Zoci",
     "matrix_pins": {
         "cols": ["A11", "A8", "C9", "C8", "C7", "C6", "A6", "A7", "C4", "C5", "A2", "A1", "B0", "B1", "B10", "C12", "D2", "B3"],
-        "rows": ["A14", "C10", "C11", "B12", "A5", "B4"]
+        "rows": ["A15", "C10", "C11", "B12", "A5", "B4"]
     },
     "diode_direction": "COL2ROW",
     "processor": "STM32F401",

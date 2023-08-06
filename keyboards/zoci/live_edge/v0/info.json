@@ -21,7 +21,7 @@
     },
     "matrix_pins": {
         "cols": ["A11"],
-        "rows": ["A14"]
+        "rows": ["A15"]
     },
     "url": "",
     "layouts": {
