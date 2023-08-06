@@ -20,7 +20,7 @@
         "nkro": false
     },
     "matrix_pins": {
-        "cols": ["A11"],
+        "cols": ["A10"],
         "rows": ["A15"]
     },
     "url": "",
