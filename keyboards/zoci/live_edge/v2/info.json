@@ -15,13 +15,42 @@
         "bootmagic": true,
         "command": false,
         "console": false,
-        "extrakey": false,
+        "encoder": true,
+        "extrakey": true,
         "mousekey": false,
-        "nkro": false
+        "nkro": false,
+        "rgblight": false
     },
     "matrix_pins": {
         "cols": ["A10", "A8", "C9", "C8", "C7", "C6", "A6", "A7", "C4", "C5", "A2", "A1", "B0", "B1", "B10", "C12", "D2", "B3"],
         "rows": ["A15", "C10", "C11", "B12", "A5", "B4"]
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            {"pin_a": "B14", "pin_b": "B15"}
+        ]
+    },
+    "ws2812": {
+        "pin": "B5"
+    },
+    "rgblight": {
+        "animations": {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        },
+        "brightness_steps": 17,
+        "hue_steps": 32,
+        "led_count": 18,
+        "saturation_steps": 17
     },
     "url": "",
     "layouts": {
